@@ -19,11 +19,12 @@
     width: 400px;
     position: relative;
     cursor: pointer;
-    transition: all 0.5 ease-in-out;
+    transition: all 0.3s;
+
 }
 
 .roomRates-container .roomrates-item-box .room-box:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .roomRates-container .roomrates-item-box .room-box img {
@@ -68,7 +69,6 @@
 .roomRates-container .cta {
     margin: 1rem 0;
     padding: 2rem 0;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-direction: column;
