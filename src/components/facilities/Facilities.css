@@ -1,0 +1,42 @@
+
+.facilities-container{
+    padding: 1.5rem 0;
+    width: 90%;
+    margin: 0 auto;
+    /* height: 250px; */
+    border: 1px solid red;
+    position: relative;
+    top: -6rem;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.facilities-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: rgb(143, 105, 47);
+}
+
+.facilities-container .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.facilities-container .icon-container .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.facilities-container .icon-container .icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.facilities-container .icon-container .icon h4 {
+    color: rgb(143, 105, 47);
+}

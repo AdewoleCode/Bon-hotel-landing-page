@@ -1,0 +1,51 @@
+.dropdown-container {
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.dropdown-container .city-select {
+    background-color: #fff;
+    width: 170px;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.dropdown-container .check-in, .check-out {
+    background-color: #fff;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 0.4rem;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.dropdown-container .check-in, .check-out span {
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.dropdown-container button {
+    font-size: 0.85rem;
+    width: 170px;
+    height: 50px;
+    padding: 0.3rem 0.4rem;
+    border-radius: 7px;
+    color: #fff;
+    background-color: rgba(223, 170, 91, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropdown-container button:hover {
+    background-color: rgb(228, 194, 142);
+}

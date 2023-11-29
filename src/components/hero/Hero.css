@@ -1,0 +1,43 @@
+.hero-container {
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    border: 1px solid red;
+    background: url(../../assets/herobg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.hero-container h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+
+.hero-container p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.hero-container button {
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 185px;
+    height: 45px;
+    padding: 0.2rem 0.7rem;
+    border-radius: 7px;
+    color: #fff;
+    background-color: rgba(223, 170, 91, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero-container button:hover {
+    background-color: rgb(228, 194, 142);
+}
