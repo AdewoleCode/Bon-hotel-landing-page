@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className='hero-container'>
             <h2>WELCOME TO BON HOTEL</h2>
-            <p>Good people. Good thinking. Good thinking</p>
+            <p>Good people. Good thinking. Good feeling.</p>
             <button>EXPLORE</button>
         </div>
     )

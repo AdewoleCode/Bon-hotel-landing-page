@@ -17,6 +17,10 @@
     padding: 0 10px;
 }
 
+.dropdown-container .city-select option{
+    color: rgb(182, 180, 180), 164, 164;
+}
+
 .dropdown-container .check-in, .check-out {
     background-color: #fff;
     width: 170px;
@@ -31,6 +35,7 @@
 .dropdown-container .check-in, .check-out span {
     font-size: 0.85rem;
     cursor: pointer;
+    color: rgb(230, 219, 219), 164, 164;    
 }
 
 .dropdown-container button {
